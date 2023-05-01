@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html And Css Crash Course</title>
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bg-grid">
+            <div>
+                <a href="#" class="nav_logo">Jessie</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skillls</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">Work</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--==================== Home ===================-->
+        <section class="home bg-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi,<br>I'am <span class="home_title-color">Jessie</span><br>Web Designer</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+            <div class="home_social">
+                <a href="#" class="home_social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home_social-icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="home_social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+            <div class="home_img">
+                <img src="Images/perfil.png" alt="">
+            </div>
+        </section>
+        <!--================= About ==================-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About</h2>
+
+            <div class="about_container bg-grid">
+                <div class="about_img">
+                    <img src="Images/about.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I'm Jessie</h2>
+                    <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque alias laboriosam, harum odit iusto deleniti iure, similique velit maxime reprehenderit expedita adipisci numquam sit doloribus repellat quos dicta et.</p>
+                </div>
+            </div>
+        </section>
+        <!--=========== Skills =================-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+
+            <div class="skills_container bg-grid">
+                <div>
+                    <h2 class="skils_subtitle">Professional Skills</h2>
+                    <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in dolorum ducimus! Blanditiis eum corporis voluptate qui nisi, omnis hic obcaecati, reiciendis repellendus atque non suscipit magnam quibusdam odit enim.</p>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-html5 skills_icon"></i>
+                            <span class="skills_name">HTML5</span>
+                        </div>
+                        <div class="skills_bar skills_html"></div>
+                        <div class="skills_percentage">95%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-css3 skills_icon"></i>
+                            <span class="skills_name">CSS</span>
+                        </div>
+                        <div class="skills_bar skills_css"></div>
+                        <div class="skills_percentage">90%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-javascript skills_icon"></i>
+                            <span class="skills_name">JavaScript</span>
+                        </div>
+                        <div class="skills_bar skills_js"></div>
+                        <div class="skills_percentage">85%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxs-paint skills_icon"></i>
+                            <span class="skills_name">UI/UX</span>
+                        </div>
+                        <div class="skills_bar skills_ux"></div>
+                        <div class="skills_percentage">95%</div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="Images/work3.jpg" class="skills_img" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--============ Work =============-->
+        <section class="work section" id="work">
+            <h2 class="section_title">Work</h2>
+
+            <div class="work_container bg-grid">
+                <div class="work_img">
+                    <img src="Images/work1.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="Images/work2.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="Images/work3.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="Images/work4.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="Images/work5.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="Images/work6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--============= CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Us</h2>
+
+            <div class="contact_container bg-grid">
+                <form action="" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input">
+                    <input type="email" placeholder="Email" class="contact_input">
+                    <textarea name="" id="" cols="30" rows="10" class="contact_input"></textarea>
+                    <input type="button" value="Submit" class="contact_button button">
+                </form>
+            </div>
+        </section>
+
+        <!--================ Footer ================-->
+        <footer class="footer">
+            <p class="footer_title">Jessie</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer_icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer_icon"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <p>&copy; 2021 copyright all rights reserved</p>
+        </footer>
+        
+    </main>
+
+    <!-- SCROLL REVAEL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SCRIPT.JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
